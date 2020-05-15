@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #1B1F3B;
+}
+ 
+.calculator-container {
+    width: 100%;
+    max-width: 2000px;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 3.6em;
+    margin-bottom: 3.6em;
+}
+
+.calculator-container h1 {
+    font: 48px 'Roboto Condensed';
+    font-weight: 700;
+    width: 437px;
+    height: 56px;
+    color: #FFE2ED;
+    position: absolute;
+    margin: 0;
+    top: 9%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.calculator-container p {
+    font: 14px 'Roboto Mono';
+    color: #FFE2ED;
+    text-align: center;
+}
+
+#text-part1 {
+    width: 700px;
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculadora {
+    width: 120px;
+    height: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+}
+
+#text-part2 {
+    width: 700px;
+    height: 194px;
+    margin: 0;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    width: 202px;
+    height: 110px;
+    margin: 0;
+    position: absolute;
+    top: 123%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    background: #E1BBC9;
+    border: #E1BBC9;
+    border-radius: 5px;
+    padding: 0 24px;
+    font-family: Roboto Mono;
+}
+
+button {
+    width: 87px;
+    height: 30px;
+    font-family: Roboto Mono;
+    font-weight: 700;
+    position: absolute;
+    margin: 0;
+    top: 86%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #C874D9;
+    border: #C874D9;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+.back-link {
+    position: absolute;
+    margin-left: 10%;
+    font: 14px 'Roboto Mono';
+    color: #FFE2ED;
+    
+}
+
+.back-link:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+h4 {
+    text-align: center;
+    font-family: Roboto Mono;
+    color: #FFE2ED;
+}
+
+.result {
+    position: relative;
+    height: 65px;
+    width: 400px;
+    top: 600px;
+    margin: 0;
+    position: absolute;
+    top: 108%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #5386E4;
+    border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #1B1F3B;
+}
+ 
+.home-container {
+    width: 100%;
+    max-width: 2000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 3.6em;
+}
+
+.home-container h1 {
+    font: 48px 'Roboto Condensed';
+    font-weight: 700;
+    width: 790px;
+    height: 56px;
+    color: #FFE2ED;
+    position: absolute;
+    margin: 0;
+    top: 9%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.home-container p {
+    width: 517px;
+    height: 152px;
+    margin: 0;
+    margin-left: 8%;
+    margin-top: 5%;
+    position: absolute;
+    top: 25%;
+    transform: translate(0, -50%);
+    text-align: center;
+    font: 14px 'Roboto Mono';
+    color: #FFE2ED;
+}
+
+.gif {
+    margin: 0;
+    margin-left: 58%;
+    margin-top: 5%;
+    position: absolute;
+    top: 25%;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    border: 5px solid #454ADE;
+}
+
+.footer p {
+    width: 582px;
+    height: 55px;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font: 14px 'Roboto Mono';
+    text-align: center;
+}
+
+.footer button {
+    width: 260px;
+    height: 47px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #C874D9;
+    border-radius: 10px;
+}
+
+.text-go-calculator {
+    font: 14px 'Roboto Mono';
+    font-weight: 700;
+    color: #FFE2ED;
+    background-color: #C874D9;
+}
