@@ -127,6 +127,7 @@ button:hover {
 }
 
 h4 {
+    font-size: 15px;
     text-align: center;
     font-family: Roboto Mono;
     color: #FFE2ED;
@@ -145,4 +146,12 @@ h4 {
     transform: translate(-50%, -50%);
     border: 3px solid #5386E4;
     border-radius: 5px;
+}
+
+#hip {
+    margin-top: 5%;
+}
+
+#error {
+    margin-top: 1.5%;
 }

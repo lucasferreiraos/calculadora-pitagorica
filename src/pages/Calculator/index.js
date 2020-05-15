@@ -45,7 +45,7 @@ export default function Calculator() {
                 Matemática ao longo dos milênios. Depois eu posso te contar mais detalhes sobre a criação do computador,
                 pois essa é uma história bem longa e divertida.
 
-                Logo abaixo temos a exibição de um retângulo apenas com as bordas desenhadas. É dentro desse triângulo
+                Logo abaixo temos a exibição de um retângulo apenas com as bordas desenhadas. É dentro desse retângulo
                 que o resultado do cálculo será exibido ou uma mensagem de erro. Em seguida temos dois retângulos com 
                 os nomes dos catetos. É nesse lugar que deve inserir os números para o cálculo.
                 O botão com a palavra "Calcular" serve para executar o algoritmo que você criou. Assim que você clicar

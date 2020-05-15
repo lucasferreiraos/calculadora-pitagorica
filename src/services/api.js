@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: process.env.REACT_APP_API_URL
+    baseURL: 'https://atlas-231814.appspot.com/calcula'
 });
 
 export default api;
